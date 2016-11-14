@@ -1,0 +1,65 @@
+menu#menu
+{
+  width : 1024px;
+  height : 30px;
+  margin : 2em 0 0 0;
+  padding : 0;
+  list-style-type : none;
+}
+
+menu#menu li
+  {
+  padding : 0 0.5em;
+  line-height : 30px;
+}
+
+
+
+menu#menu li.bouton_gauche
+{
+  float : left;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+menu#menu address.bouton_droite
+{
+  float : right;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+menu#menul a:hover { text-decoration : underline; }
+menu#menul a:visited { text-decoration : underline; }
+
+section
+{
+  display: inline-block;
+  width: 80%;
+  float: left;
+}
+
+aside
+{
+  width: 20%;
+  float: right;
+}
+
+footer
+{
+  float: left;
+  display: block;
+}
+
+article
+{
+  border-style: none;
+  border-bottom: thick dotted #000000
+}
+
+main
+{
+  border-style: none;
+  border-bottom: solid #000000
+}
